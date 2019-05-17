@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-May-2019, 4:22:56 PM
+    Author     : admin
+*/
+.home-bg{
+    -fx-background-color: #292A2D;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+   
+}
+.input{
+    -fx-background-color: #1D1D1F;
+    -fx-text-fill: whitesmoke;
+}
+.input:focused{
+    -fx-text-fill: whitesmoke;
+  
+}
+.input:focus{
+    -fx-background-color: whitesmoke;
+}
+
+.button
+{
+    -fx-border-color:#1D1D1F;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}

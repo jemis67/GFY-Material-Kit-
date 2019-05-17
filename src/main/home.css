@@ -1,0 +1,63 @@
+/*
+ * Empty Stylesheet file.
+ */
+.bg-trans{
+    -fx-background-color: transparent;
+}
+.home-bg{
+    -fx-background-color: #292A2D;    
+    -fx-background-radius: 0 5px 5px 0;
+    -fx-border-radius: 5px;
+    
+}
+.nav{
+    -fx-background-color: #1D1D1F;
+    -fx-background-radius:5px 0 0 5px;
+    -fx-border-radius:5px 0 0 5px;
+}
+.feture{
+    -fx-background-color: #292A2D;
+}
+.feture:hover{
+    -fx-border-color:  #ffe98a;  
+    -fx-border-width:0 0 2px 0;
+}
+.top{
+    -fx-background-color: #27282B;
+}
+.close{
+    -fx-background-color: red;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.max{
+    -fx-background-color: yellow;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.min{
+    -fx-background-color: green;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.logo
+{
+    -fx-background-color: transparent;
+}
+.icon{
+   -fx-background-color: transparent;
+}
+.about-trans{
+    -fx-background-color: #292A2D;
+    -fx-background-radius: 10px;
+     
+}
+.about-bg{
+    -fx-background-color: #1D1D1F;
+     -fx-background-radius: 10px;
+   
+}
+.about-close{
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent;
+}

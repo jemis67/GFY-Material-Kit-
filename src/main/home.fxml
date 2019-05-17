@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" styleClass="bg-trans" stylesheets="@home.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.HomeController">
+   <left>
+      <BorderPane maxWidth="-Infinity" minHeight="-Infinity" prefHeight="200.0" prefWidth="200.0" styleClass="nav" BorderPane.alignment="CENTER">
+         <top>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Button fx:id="about" mnemonicParsing="false" onAction="#about" prefHeight="100.0" prefWidth="100.0" styleClass="logo" BorderPane.alignment="CENTER">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="CONNECTDEVELOP" size="8.0em" styleClass="logo" />
+                     </graphic>
+                  </Button>
+               </center>
+            </BorderPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="home" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="14.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#home" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="HOME" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="HOME" size="2.0em" />
+                     </graphic></JFXButton>
+                  <JFXButton fx:id="view" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="134.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#view" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="VIEW" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="COLUMNS" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="edit" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="74.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#edit" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="EDIT" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="EDIT" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="search" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="194.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#search" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="SEARCH" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="SEARCH" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="tools" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="314.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#tools" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="TOOLS" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="TASKS" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="user" alignment="BASELINE_LEFT" graphicTextGap="24.0" layoutX="10.0" layoutY="254.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#user" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="USER" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="USER" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="setting" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="374.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#setting" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="SETTINGS" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="GEAR" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="exit" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="494.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#exit" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="EXIT" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="POWER_OFF" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="notification" alignment="BASELINE_LEFT" graphicTextGap="18.0" layoutX="10.0" layoutY="434.0" maxWidth="-Infinity" minWidth="-Infinity" onAction="#notification" prefHeight="40.0" prefWidth="180.0" styleClass="feture" text="NOTIFICATION" textFill="#ffe98a">
+                     <graphic>
+                        <FontAwesomeIcon fill="#ffe98a" iconName="BELL" size="2.0em" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </left>
+   <center>
+      <BorderPane fx:id="content" prefHeight="200.0" prefWidth="200.0" styleClass="home-bg" BorderPane.alignment="CENTER">
+         <top>
+            <BorderPane fx:id="c" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+               <right>
+                  <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="close" layoutX="177.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#close" prefHeight="14.0" prefWidth="14.0" styleClass="close" />
+                        <Button fx:id="max" layoutX="153.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#max" prefHeight="14.0" prefWidth="14.0" styleClass="max" />
+                        <Button fx:id="min" layoutX="129.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#min" prefHeight="14.0" prefWidth="14.0" styleClass="min" />
+                     </children>
+                  </AnchorPane>
+               </right>
+            </BorderPane>
+         </top>
+      </BorderPane>
+   </center>
+</BorderPane>

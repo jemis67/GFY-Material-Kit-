@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="about-trans" stylesheets="@home.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AboutController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="about-bg" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="420.0" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="96.0" rotate="-117.0" style="-fx-background-color: #ffe98a; -fx-background-radius: 25px;">
+               <children>
+                  <Button fx:id="fb" layoutX="31.0" layoutY="23.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#fb" prefHeight="40.0" prefWidth="40.0" rotate="117.0" styleClass="icon">
+                     <graphic>
+                        <FontAwesomeIcon fill="#4267b2" iconName="FACEBOOK_ALTFFICIAL" size="3.0em" text="" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="428.0" layoutY="137.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="96.0" rotate="-117.0" style="-fx-background-color: #ffe98a; -fx-background-radius: 25px;">
+               <children>
+                  <Button fx:id="instagram" layoutX="28.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#instagram" prefHeight="40.0" prefWidth="40.0" rotate="117.0" styleClass="icon">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" iconName="INSTAGRAM" size="3.0em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="428.0" layoutY="266.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="96.0" rotate="-117.0" style="-fx-background-color: #ffe98a; -fx-background-radius: 25px;">
+               <children>
+                  <Button fx:id="git" layoutX="36.0" layoutY="15.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#git" prefHeight="40.0" prefWidth="40.0" rotate="117.0" styleClass="icon">
+                     <graphic>
+                        <FontAwesomeIcon fill="#333333" iconName="GITHUB" size="3.0em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="428.0" layoutY="394.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="96.0" rotate="-117.0" style="-fx-background-color: #ffe98a; -fx-background-radius: 25px;">
+               <children>
+                  <Button fx:id="twitter" layoutX="29.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#twitter" prefHeight="40.0" prefWidth="40.0" rotate="117.0" styleClass="icon">
+                     <graphic>
+                        <FontAwesomeIcon fill="#55aded" iconName="TWITTER_SQUARE" size="3.0em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="353.0" layoutY="121.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-radius: 15px; -fx-background-color: #f30067;" />
+            <AnchorPane layoutX="77.0" layoutY="284.0" prefHeight="16.0" prefWidth="16.0" style="-fx-background-radius: 15px; -fx-background-color: #5ca0d3;" />
+            <AnchorPane layoutX="257.0" layoutY="388.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-radius: 15px; -fx-background-color: f30067;" />
+            <AnchorPane layoutX="65.0" layoutY="432.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-radius: 15px; -fx-background-color: #eaf5ff;" />
+            <AnchorPane layoutX="37.0" layoutY="46.0" prefHeight="13.0" prefWidth="13.0" style="-fx-background-radius: 15px; -fx-background-color: #f30067;" />
+            <AnchorPane layoutX="148.0" layoutY="141.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-radius: 15px; -fx-background-color: #eaf5ff;" />
+            <AnchorPane layoutX="363.0" layoutY="26.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-radius: 15px; -fx-background-color: #5ca0d3;" />
+            <AnchorPane layoutX="411.0" layoutY="388.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-radius: 15px; -fx-background-color: #5ca0d3;" />
+            <Label layoutX="107.0" layoutY="171.0" prefHeight="27.0" prefWidth="101.0" text="Devlope By:" textFill="#ffe98a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="171.0" prefHeight="18.0" prefWidth="186.0" text="Jemis I. Goti" textFill="#55aded">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="211.0" prefHeight="27.0" prefWidth="101.0" text="Version:" textFill="#ffe98a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="211.0" prefHeight="18.0" prefWidth="186.0" text="19.1.01" textFill="#55aded">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="256.0" prefHeight="27.0" prefWidth="101.0" text="Licence:" textFill="#ffe98a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="256.0" prefHeight="18.0" prefWidth="186.0" text="Free Version.." textFill="#55aded">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="300.0" prefHeight="27.0" prefWidth="101.0" text="Email:" textFill="#ffe98a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="300.0" prefHeight="27.0" prefWidth="211.0" text="jemisgoti67@outlook.com" textFill="#55aded">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="close" layoutX="226.0" layoutY="430.0" mnemonicParsing="false" onAction="#close" prefHeight="40.0" prefWidth="40.0" styleClass="about-close">
+               <graphic>
+                  <FontAwesomeIcon fill="#f20000" iconName="TIMES_CIRCLE" size="3.0em" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
